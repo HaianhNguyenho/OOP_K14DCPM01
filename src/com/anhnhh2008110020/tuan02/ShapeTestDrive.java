@@ -39,7 +39,7 @@ public class ShapeTestDrive {
                 System.exit(0);
                 break;
                default:
-               System.out.println("Bạn chọn sai rồi. Vui lòng chọn lại option!");
+               System.out.println("Bạn chọn sai rồi. Vui lòng chọn lại option nhé!");
 
             }
             
