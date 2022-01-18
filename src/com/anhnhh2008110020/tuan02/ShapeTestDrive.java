@@ -25,14 +25,17 @@ public class ShapeTestDrive {
                 case 1:
                 System.out.println("Da chon hinh dang tron");
                 circle.turn();
+                circle.play();
                 break;
                 case 2:
                 System.out.println("Da chon hinh dang tam giac");
                 triangle.turn();
+                triangle.play();
                 break;
                 case 3:
                 System.out.println("Da chon hinh dang vuong");
                 square.turn();
+                square.play();
                 break;
                 case 4:
                 System.out.println("Thoat chuong trinh xoay hinh");

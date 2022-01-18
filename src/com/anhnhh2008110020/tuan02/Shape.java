@@ -10,7 +10,11 @@ public class Shape {
 
     //hành vi
     public void turn(){
-        System.out.println("Xoay hinh 360 do: "+shape);
+        System.out.println("Xoay hinh 360 do... ");
+    }
+
+    public void play(){
+        System.out.println("Choi tap tin am thanh.AIF.... ");
     }
     
 }
