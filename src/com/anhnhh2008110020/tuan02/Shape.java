@@ -1,6 +1,6 @@
 package com.anhnhh2008110020.tuan02;
 
-public class Shape {
+public class Shape {//khuôn mẫu để tạo Object
 
     String shape;
 
