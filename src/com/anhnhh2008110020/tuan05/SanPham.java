@@ -15,6 +15,11 @@ public class SanPham {
         this.giamGia = giamGia;
     }
     
+    public SanPham(String tenSanPham, double donGia){
+        this.tenSanPham = tenSanPham;
+        this.donGia = donGia;
+        this.giamGia = 0;
+    }
     
 
     public String getTenSP(){
@@ -42,7 +47,7 @@ public class SanPham {
     }
 
 
-    double getThueNhapKhau(){
+    private double getThueNhapKhau(){
         return donGia * 0.1;
     }
 
