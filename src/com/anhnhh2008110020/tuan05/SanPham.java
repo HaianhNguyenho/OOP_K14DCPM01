@@ -3,11 +3,13 @@ package com.anhnhh2008110020.tuan05;
 import java.util.Scanner;
 
 public class SanPham {
+
+    //thuộc tính
   private String tenSanPham;
-  private double donGia;
+  private double donGia;//
   private double giamGia;
 
-
+    // ham tao (constructor)
 
     public SanPham(String tenSanPham, double donGia, double giamGia) {
         this.tenSanPham = tenSanPham;
@@ -21,9 +23,9 @@ public class SanPham {
         this.giamGia = 0;
     }
     
-
+    //get-set
     public String getTenSP(){
-        return tenSanPham;
+        return this.tenSanPham;
     }
 
     public void setTenSP(String tenSanPham){
@@ -54,6 +56,7 @@ public class SanPham {
     public SanPham(){
 
     }
+    //method
 
     public void xuatThongTin(){
         System.out.println("Product name: "+ tenSanPham);
