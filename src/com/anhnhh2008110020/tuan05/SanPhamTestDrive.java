@@ -1,4 +1,4 @@
-package com.anhnhh2008110020.tuan04;
+package com.anhnhh2008110020.tuan05;
 
 public class SanPhamTestDrive {
     public static void main(String[] args) {
@@ -8,7 +8,6 @@ public class SanPhamTestDrive {
         sanPham2.nhapThongTin();
         sanPham1.xuatThongTin();
         sanPham2.xuatThongTin();
-
     }
     
 }

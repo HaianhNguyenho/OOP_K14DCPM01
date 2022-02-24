@@ -1,11 +1,11 @@
-package com.anhnhh2008110020.tuan04;
+package com.anhnhh2008110020.tuan05;
 
 import java.util.Scanner;
 
 public class SanPham {
-    String tenSanPham;
-    double donGia;
-    double giamGia;
+  private String tenSanPham;
+  private double donGia;
+  private double giamGia;
 
 
 
@@ -14,7 +14,7 @@ public class SanPham {
         this.donGia = donGia;
         this.giamGia = giamGia;
     }
-
+    
     
 
     public String getTenSP(){
@@ -68,4 +68,5 @@ public class SanPham {
         System.out.println("Enter discount: ");
         giamGia = scanner.nextDouble();
     }
+    
 }
