@@ -5,9 +5,9 @@ public class IntSquare {
     private double squareValue;//implementation
 
     //interface
-    public double getSquareOperator(int value){
+    public double getSquareMath(int value){
         //implementation - thuật toán
-        this.squareValue = value * value;//operator X
+        this.squareValue = Math.pow(value, 2);//operator X
         return this.squareValue;
     }
 }
