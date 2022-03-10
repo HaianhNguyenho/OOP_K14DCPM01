@@ -2,7 +2,7 @@ package com.anhnhh2008110020.tuan04;
 
 public class Square {
     //attribute
-    String soundFile = "square.aif";
+    String soundFile;
 
     //method
     //constructor

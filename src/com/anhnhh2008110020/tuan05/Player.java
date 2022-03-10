@@ -21,7 +21,7 @@ public class Player {
     //method
      public void guess(){
          number = (int) (Math.random() * 10);
-         System.out.println("In'm guessting "+" "+ number); 
+         System.out.println("I'm guessting "+" "+ number); 
      }
     
 }
