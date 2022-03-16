@@ -11,17 +11,17 @@ public class CusTomer {
 
     //function
     void getCusName(){
-        System.out.print("Nhap ten khach hang: ");
+        System.out.print("Nhập tên khách hàng: ");
         cusName = varInput.nextLine();
     }
     void getAddress(){
-        System.out.print("Dia chi khach hang: ");
+        System.out.print("Địa chỉ khách hàng ");
         address = varInput.nextLine();
     }
     String getCusInfor(){
-        System.out.println("Thong tin khach hang: ");
-        System.out.println("Ten khach hang: "+cusName);
-        System.out.println("Dia chi khach hang "+address);
+        System.out.println(" Thông tin khách hàng ");
+        System.out.println("Tên khách hàng: "+cusName);
+        System.out.println("Địa chỉ khách hàng "+address);
         return cusName+address;
     }
 }
