@@ -16,6 +16,7 @@ public class GiaoDichTestDrive {
             System.out.println(">>3 Hien Thi danh sach gd ");
             System.out.println(">>4 Tong");
             System.out.println("Trung binh tien");
+            System.out.print("Nhap lua chon");
             t=varInput.nextInt();
             switch(t){
                 case 1:
