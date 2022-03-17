@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class GiaoDich {
     protected String maGD, ngayGD;
-    protected double donGia;
+    protected double donGia, thanhTien;
     protected float dienTich;
+    protected int soLuong;
 
     Scanner varInput = new Scanner(System.in);
 
@@ -15,13 +16,15 @@ public class GiaoDich {
         this.ngayGD = "";
         this.donGia = 0;
         this.dienTich = 0;
+        this.soLuong = 0;
     }
 
-    protected GiaoDich(String maGD, String ngayGD, double donGia, float dienTich) {
+    protected GiaoDich(String maGD, String ngayGD, double donGia, float dienTich, int soLuong) {
         this.maGD = maGD;
         this.ngayGD = ngayGD;
         this.donGia = donGia;
         this.dienTich = dienTich;
+        this.soLuong = soLuong;
     }
 
     protected String getMaGD() {
