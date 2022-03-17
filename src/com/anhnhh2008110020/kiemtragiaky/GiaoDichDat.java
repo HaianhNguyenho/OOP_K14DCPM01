@@ -8,8 +8,8 @@ public class GiaoDichDat extends GiaoDich {
         this.loaiDat = "";
     }
 
-    public GiaoDichDat(String maGD, String ngayGD, double donGia, float dienTich, String loaiDat) {
-        super(maGD, ngayGD, donGia, dienTich);
+    public GiaoDichDat(String maGD, String ngayGD, double donGia, float dienTich, String loaiDat,int soLuong) {
+        super(maGD, ngayGD, donGia, dienTich,soLuong);
         this.loaiDat = loaiDat;
     }
 

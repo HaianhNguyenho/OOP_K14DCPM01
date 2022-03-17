@@ -10,11 +10,14 @@ public class GiaoDichNha extends GiaoDich{
         this.diaChi = "";
     }
 
-    public GiaoDichNha(String maGD, String ngayGD, double donGia, float dienTich, int loaiNha, String diaChi) {
-        super(maGD, ngayGD, donGia, dienTich);
-        this.loaiNha = loaiNha;
+    
+
+    public GiaoDichNha(String maGD, String ngayGD, double donGia, float dienTich, int soLuong, String diaChi) {
+        super(maGD, ngayGD, donGia, dienTich, soLuong);
         this.diaChi = diaChi;
     }
+
+
 
     public int getLoaiNha() {
         return loaiNha;
