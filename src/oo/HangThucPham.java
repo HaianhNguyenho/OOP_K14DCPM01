@@ -1,11 +1,12 @@
 package oo;
 
+
 import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-public class HangThucPham {
+public class HangThucPham{
     private String maHang;
     private String tenHang;
     private double donGia;

@@ -1,8 +1,10 @@
 package oo;
 
+
+import java.io.Serializable;
 import java.util.Scanner;
 
-public class SinhVienGDU {
+public class SinhVienGDU implements Serializable {
     String name;
     int code;
     String dateBirthday;
