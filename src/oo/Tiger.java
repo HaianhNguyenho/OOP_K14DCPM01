@@ -1,6 +1,8 @@
 package oo;
 
-public class Tiger extends Animal{
+public class Tiger extends Feline{
+
+    public Tiger(){}
 
     @Override
     protected void makeNoise(){

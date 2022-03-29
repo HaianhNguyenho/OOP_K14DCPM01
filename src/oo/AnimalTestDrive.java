@@ -1,0 +1,20 @@
+package oo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class AnimalTestDrive {
+
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+
+        Animal animal = new Dog();
+
+        List list = new ArrayList<>();
+
+        ArrayList arrayList = new ArrayList<>();
+
+        int array[] = new int[5];
+    }
+    
+}

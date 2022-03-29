@@ -1,27 +1,16 @@
 package oo;
 
-public class Car {
+public class Car implements IntName {
 
-  private  String carColor;
+    public void setName(String name){
 
-    private double carPrice ;
-
-    public String getCarColor() {
-        return carColor;
     }
 
-    public void setCarColor(String carColor) {
-        this.carColor = carColor;
+    public String getName(){
+        return null;
     }
 
-    public double getCarPrice() {
-        return carPrice;
-    }
-
-    public void setCarPrice(double carPrice) {
-        this.carPrice = carPrice;
-    }
-
+  
     
     
 }

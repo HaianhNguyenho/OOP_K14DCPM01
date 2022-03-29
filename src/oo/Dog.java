@@ -1,25 +1,38 @@
 package oo;
+//implementation
 
-public class Dog {
-    //atrribute -data
-  private  int size; //implementation
-  /**default-mặc định */  String name; //interface
-  /**default-mặc định */  String bread;
+public class Dog extends Animal implements Pet, IntName{
 
-  //methods
-  //interface
-  public void setSize(int size){
-      //viết code để ràng buộc size không bao giờ được âm
-      if(size>0){
-      this.size = size;
-    }else{
-      System.out.println("Size unvalid (khong hop le)!!");
+  public void makeNoise(){
+    System.out.println("Making gau gau");
   }
-}
-    //interface
-  public int getSize(){
-      return this.size;
+
+  protected void eat(){
+    System.out.println("Eating pone...");
   }
-    
+
+  public void protectHouse(){
+    System.out.println("Protecting...");
+  }
+    public void chaseCat(){
+      System.out.println("Chasing cat");
+    }
+
+    public void beFriendly(){
+
+    }
+
+    public void play(){
+
+    }
+    public void setName(String name){
+
+    }
+
+    public String getName(){
+
+      return null;
+    }
+
     
 }

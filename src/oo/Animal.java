@@ -1,25 +1,31 @@
 package oo;
 
-public class Animal {
+public abstract class Animal {
 
     //attribute - thuoc tinh- state
     private String picture;
     private String food;
     private int hunger;
+    private String ten;
+    private String name;
 
-    //method-behavior
-    protected void makeNoise(){
-        System.out.println("Doi qua ....");
+    public String getTen(){
+        return ten;
     }
+
+    //protected abstract void beFriendly();
+    //protected abstract void play();
+
+    //method-behavior-interface-encapsulation
+    protected abstract void makeNoise();
+    
 
     protected void sleep(){
         System.out.println("Ngu thoi...");
     
     }
-    protected void eat(){
-        System.out.println("Muon an...");
-
-    }
+    protected abstract void eat();
+     
     protected void roam(){
         System.out.println("Gum...");
     }

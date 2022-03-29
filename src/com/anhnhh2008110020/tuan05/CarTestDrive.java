@@ -1,7 +1,5 @@
 package com.anhnhh2008110020.tuan05;
 
-import oo.Car;
-
 public class CarTestDrive {
     public static void main(String[] args) {
         Car car = new Car();

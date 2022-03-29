@@ -1,6 +1,6 @@
 package oo;
 
-public class Feline extends Animal {
+public abstract class Feline extends Animal {
 
     @Override
     protected void roam(){
