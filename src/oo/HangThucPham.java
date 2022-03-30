@@ -1,12 +1,13 @@
 package oo;
 
 
+import java.io.Serializable;
 import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-public class HangThucPham{
+public class HangThucPham implements Serializable{
     private String maHang;
     private String tenHang;
     private double donGia;
@@ -23,6 +24,9 @@ public class HangThucPham{
     }
     public String getMaHang(){
         return maHang;
+    }
+    public String getTenHang(){
+        return tenHang;
     }
     public HangThucPham(String maHang){
         this.setMaHang(maHang);
@@ -66,8 +70,9 @@ public class HangThucPham{
         SimpleDateFormat ngayVietNam = new SimpleDateFormat("dd/MM/yyyy");
         Locale localeVN = new Locale("vi", "VN");
         NumberFormat tienVietNam = NumberFormat.getCurrencyInstance(localeVN);
-        return "HangThucPham [donGia=" + tienVietNam.format(donGia) + ", maHang=" + maHang + ", ngayHetHan=" + tienVietNam.format(ngayHetHan) + ", ngaySX="
-                + tienVietNam.format(ngaySX) + ", tenHang=" + tenHang + "]";
+
+        return "HangThucPham [donGia=" + tienVietNam.format(donGia) + ", maHang=" + maHang + ", ngayHetHan=" + ngayVietNam.format(ngayHetHan) + ", ngaySX="
+                + ngayVietNam.format(ngaySX) + ", tenHang=" + tenHang + "]";
     }
     public HangThucPham(String maHang, String tenHang, double donGia, Date ngaySX, Date ngayHetHan){
         this.setMaHang(maHang);
